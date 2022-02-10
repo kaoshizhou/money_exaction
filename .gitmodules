@@ -2,11 +2,14 @@
 	path = nlp_metrics
 	url = https://gitlab.deepwisdomai.com/nlp1/products/tianji/nlp_metrics.git
 	branch = main
+	ignore = dirty
 [submodule "at_template"]
 	path = at_template
 	url = https://gitlab.deepwisdomai.com/nlp1/autonlpcls/at_template.git
 	branch = main
+	ignore = dirty
 [submodule "nlp_solver"]
 	path = nlp_solver
 	url = https://gitlab.deepwisdomai.com/nlp1/products/tianji/nlp_solver.git
 	branch = main
+	ignore = dirty
