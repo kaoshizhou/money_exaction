@@ -1,0 +1,12 @@
+[submodule "nlp_metrics"]
+	path = nlp_metrics
+	url = https://gitlab.deepwisdomai.com/nlp1/products/tianji/nlp_metrics.git
+	branch = main
+[submodule "at_template"]
+	path = at_template
+	url = https://gitlab.deepwisdomai.com/nlp1/autonlpcls/at_template.git
+	branch = main
+[submodule "nlp_solver"]
+	path = nlp_solver
+	url = https://gitlab.deepwisdomai.com/nlp1/products/tianji/nlp_solver.git
+	branch = main
