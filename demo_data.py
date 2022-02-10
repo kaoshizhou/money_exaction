@@ -1,3 +1,5 @@
+import pandas as pd
+
 from nlp_solver.base_data import BaseDataProcessor
 
 class DemoDataProcessor(BaseDataProcessor):
@@ -13,8 +15,8 @@ class DemoDataProcessor(BaseDataProcessor):
     def load(self):
         pass
 
-    def get_predicted_label_raw(self, eval_result):
+    def get_predicted_label_raw(self, eval_result) -> list:
         pass
 
-    def generate_eval_df(self, eval_x, eval_y_true, eval_result):
+    def generate_eval_df(self, eval_x, eval_y_true, eval_result) -> pd.DataFrame:
         pass
