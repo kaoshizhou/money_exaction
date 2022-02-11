@@ -5,7 +5,8 @@ from .executors.demo_model_executor import DemoModelExecutor
 
 class DemoMtSolver(BaseSolver):
     def __init__(self, config):
-        super().__init__(config)
+        super().__init__(config) # super init必须有
+        pass # 额外的init操作如有可加
 
     def train(self, train_x, train_y, valid_x, valid_y):
         """

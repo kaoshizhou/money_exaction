@@ -4,7 +4,8 @@ from nlp_solver.base_data import BaseDataProcessor
 
 class DemoDataProcessor(BaseDataProcessor):
     def __init__(self, config):
-        pass
+        super().__init__(config) # super init必须有
+        pass # 额外的init操作如有可加
     
     def load_train_valid_set(self):
         pass
