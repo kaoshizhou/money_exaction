@@ -1,6 +1,6 @@
 {
     "solver": ["demo_mt_solver.demo_mt_solver", "DemoMtSolver"],
-    "data_processor": ["demo_data", "DemoDataProcessor"],
+    "data_processor": ["demo_data_processor", "DemoDataProcessor"],
     "metric_processor": ["demo_metric_processor", "DemoMetricProcessor"],
     "metric_list": ["accuracy"]
 }

@@ -1,6 +1,6 @@
 import pandas as pd
 
-from nlp_solver.base_data import BaseDataProcessor
+from nlp_solver.base_data_processor import BaseDataProcessor
 
 class DemoDataProcessor(BaseDataProcessor):
     def __init__(self, config):
