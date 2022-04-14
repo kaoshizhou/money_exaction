@@ -1,25 +1,12 @@
 [
   {
-    "hp_subspace": "preprocessing",
-    "hp_values": {
-      "preprocess": {
-        "hp_name": "plain",
-        "dummy_hp": 0
-      }
-    }
-  },
-  {
     "hp_subspace": "modeling",
     "hp_values": {
       "model": {
         "hp_name": "BERT",
-        "lr": 1e-05,
-        "epoch": 1,
-        "batch_size": 16,
-        "loss_trick": "plain",
-        "max_length": 256,
-        "lr_schedule": "linear",
-        "warmup_steps_ratio": 0.1
+        "batch_size": 8,
+        "epochs": 1,
+        "lr": 1e-4
       }
     }
   }

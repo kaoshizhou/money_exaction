@@ -19,6 +19,7 @@ COPY . /app/tianji/
 RUN rm -rf /app/tianji/at_template
 # 安装task相关的依赖
 RUN pip3 install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
+RUN mkdir -p /app/tianji/runs/models
 #####################
 
 ##### 固定指令，勿动 #####
